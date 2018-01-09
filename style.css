@@ -1,0 +1,189 @@
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+:root
+{
+    --primaryMainNormal: rgb(44, 44, 44);
+    --primaryMainDark: rgb(33, 33, 33);
+    --teamGoldNormal: #F4AA00;
+    --teamBlueNormal: #282561;
+}
+
+body
+{
+    background: var(--primaryMainNormal);
+}
+
+form *
+{
+    color: black;
+}
+
+@media (max-height: 650px) {
+    #quoteContainer 
+    {
+        visibility: hidden;
+    }
+}
+
+.HomeTopDiv
+{
+    width: 100%;
+    height: 100%;
+    display: table;
+    background: url("./images/logos/Team Photo.jpg") no-repeat center center fixed, rgb(0, 0, 0);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 0 0, center;
+    background-size: 100%;
+    z-index: 0;
+}
+
+.HomeTopDivCover
+{
+    top: 0;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.HomeTopTextDiv
+{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: 2;
+    display: table-cell;
+    right: 0%;
+    margin-top: 5%;
+}
+
+.HomeTopText
+{
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.HomeTopTextAlt
+{
+    color: rgb(185, 185, 185);
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#quoteContainer
+{
+    margin-top: 10%;
+    font-style: italic;
+    font-size: 100%;
+}
+
+.HomeTopButton
+{
+    margin: 10% auto;
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+
+.NondraggableImage
+{
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.NavBar
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    cursor: default;
+}
+
+.NavItem
+{
+    padding: 1%;
+    cursor: pointer;
+}
+
+.SideReturnButton
+{
+    margin: 1%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+#about:target
+{
+    color: #43AFDD;
+    text-decoration: underline;
+    transition: color 1s;
+}
+
+#contact:target
+{
+    color: #43AFDD;
+    text-decoration: underline;
+    transition: color 1s;
+}
+
+#support:target
+{
+    color: #43AFDD;
+    text-decoration: underline;
+    transition: color 1s;
+}
+
+#team:target
+{
+    color: #43AFDD;
+    text-decoration: underline;
+    transition: color 1s;
+}
+
+#calendar:target
+{
+    color: #43AFDD;
+    text-decoration: underline;
+    transition: color 1s;
+}
+
+#updates:target
+{
+    color: #43AFDD;
+    text-decoration: underline;
+    transition: color 1s;
+}
+
+#community:target
+{
+    color: #43AFDD;
+    text-decoration: underline;
+    transition: color 1s;
+}
+
+#trey:target
+{
+    color: #43AFDD;
+    text-decoration: underline;
+    transition: color 1s;
+}
