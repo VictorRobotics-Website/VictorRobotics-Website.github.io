@@ -132,6 +132,45 @@ form *
     top: 0;
 }
 
+.ApparelImageRow img
+{
+	margin: 0 auto;
+	display: block;
+}
+
+.ApparelImageRow button
+{
+	margin: 10px auto;
+	display: block;
+}
+
+.ParagraphCenter
+{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.Copyright
+{
+	float: right;
+    margin-top: 15px;
+    font-size: 1.3em;
+}
+
+.FootLink
+{
+	-webkit-transition: transform 2s; /* Safari */
+    transition: transform 0.2s;
+}
+
+.FootLink:hover
+{
+	-ms-transform: rotate(360deg) scale(1.3); /* IE 9 */
+    -webkit-transform: rotate(360deg) scale(1.3); /* Safari */
+    transform: rotate(360deg) scale(1.3);
+}
+
 #about:target
 {
     color: #43AFDD;
